@@ -1,0 +1,134 @@
+/*Player Medium*/
+.player-medium {
+  margin: 10px;
+  display: flex;
+}
+
+.player-inner {
+  /*Delete Eventually*/
+  height: 300px;
+  width: 200px;
+  /*Actual CSS*/
+  box-sizing: border-box;
+  margin: 10px;
+  border: 1px solid #c9aa71;
+  /*Flex*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.player-icon {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid #544a31;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.player-name {
+  color: #896c3d;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 2px;
+  min-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px 5px 5px 5px;
+}
+.player-role {
+  color: #eae0d8;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0px 5px 10px 5px;
+}
+.player-games {
+  color: #f1e6d0;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0px 5px 10px 5px;
+}
+.to-player-page-button {
+  display: block;
+  box-sizing: border-box;
+  background-color: #8a6e41;
+  border: 2px solid #8a6e41;
+  color: #eae0d8;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 1.4px;
+  max-width: 100%;
+  padding: 9px 18px 7.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+  margin-bottom: 10px;
+  box-shadow: 6px 6px 30px 0 rgba(0,0,0,.15);
+}
+.to-player-page-button:hover {
+  background-color: #eae0d8;
+  border: 2px solid #eae0d8;
+  color: #1c2527;
+}
+
+/*Player Small*/
+.player-small {
+  width: 100%;
+  padding: 10px 0;
+  box-sizing: border-box;
+  /*Flexbox*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.player-small-tab {
+  text-transform: uppercase;
+  color:#eae0d8;
+  font-weight: 500;
+  font-size: 14px;
+}
+.player-icon-small {
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+}
+.player-icon-wrapper-small {
+  width: 54px;
+}
+.player-name-small {
+  color: #896c3d;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+  text-transform: uppercase;
+  width: 180px;
+}
+.player-role-small {
+  color: #eae0d8;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 150px;
+}
+.player-games-small {
+  color: #f1e6d0;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 120px;
+}
+.to-player-page-button {
+  margin: 0;
+}
+.player-button-wrapper-small {
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

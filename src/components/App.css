@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'beaufortforlol';
+    src: url('./beaufortforlol-regular.otf') format('opentype');
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'beaufortforlol', 'Roboto', sans-serif;
+}
+.App {
+  background-color: #121212;
+}
+.header {
+  background-color: #121212;
+  border-bottom: 2px solid #262626;
+  height: 52px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #c9aa71;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-title {
+  font-size: 18px;
+}
+.logo {
+  display: block;
+  margin-left: 10px;
+  height: 36px;
+  width: 36px;
+  background-image: url(https://cdn.leagueoflegends.com/riotbar/prod/1.6.61/images/navigation/icon-game-lol.png?1493242078) no-repeat 5px 8px;
+}
+.body {
+  min-height: 100vh;
+  background-image: url(https://lolstatic-a.akamaihd.net/lolkit/1.1.6/resources/images/bg-default.jpg);
+}
+.content {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 20px 0;
+  /*Flexbox*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Standard Designs*/
+.box {
+  box-sizing: border-box;
+  background-color: #1c2527;
+  border: 1px solid #544a31;
+  -webkit-transition: box-shadow .4s ease initial;
+  -moz-transition: box-shadow .4s ease initial;
+  transition: box-shadow .4s ease initial;
+}
+.golden-separator {
+  height: 1px;
+  background: #c9aa71;
+  border-bottom: 1px solid #c9aa71;
+}
