@@ -1,0 +1,40 @@
+.team-summary {
+  width: 1024px;
+  height: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+}
+.team-summary-col-sx {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.team-summary-title {
+  /*font-family: Times;*/
+  font-weight: 500;
+  display: block;
+  font-size: 50px;
+  word-spacing: 3px;
+  border-bottom: 2px solid #c9aa71;
+  /*color: #eae0d8;*/
+  color: #896c3d;
+  margin: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.team-summary-line {
+  padding: 15px;
+  display: flex;
+}
+.team-summary-desc {
+  width: 50%;
+  color: #c9aa71;
+  text-transform: uppercase;
+}
+.team-summary-value {
+  width: 50%;
+  color: #eae0d8;
+  text-transform: uppercase;
+}

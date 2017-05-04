@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import PlayerInfo from './home/PlayerInfo';
-import './home/Home.css';
+import TeamSummary from './home/TeamSummary';
 
 class Home extends Component {
   render() {
     return (
       <div>
         <div className="content">
-          <div className="player-medium-container">
-          </div>
+          <TeamSummary/>
           <PlayerInfo/>
         </div>
       </div>

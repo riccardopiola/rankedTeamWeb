@@ -5,11 +5,11 @@ import './Player.css';
 const PlayerTabInfo = () => {
   return (
     <div className="player-small">
-      <div className="player-small-tab" style={{width: "54px"}}></div>
-      <div className="player-small-tab" style={{width: "180px"}}>Current Name</div>
-      <div className="player-small-tab" style={{width: "180px"}}>Previous Name</div>
-      <div className="player-small-tab" style={{width: "150px"}}>Roles</div>
-      <div className="player-small-tab" style={{width: "120px"}}>Games</div>
+      <div className="player-small-tab" style={{width: "64px"}}></div>
+      <div className="player-small-tab" style={{width: "225px"}}>Current Name</div>
+      <div className="player-small-tab" style={{width: "225px"}}>Previous Name</div>
+      <div className="player-small-tab" style={{width: "200px"}}>Roles</div>
+      <div className="player-small-tab" style={{width: "200px"}}>Games</div>
       <div className="player-small-tab" style={{width: "110px"}}></div>
     </div>
   )
@@ -18,7 +18,7 @@ const PlayerTabInfo = () => {
 class PlayerInfo extends Component {
   render() {
     return (
-      <div className="player-small-container box">
+      <div className="box player-small-container">
         <PlayerTabInfo/>
         <div className="golden-separator"/>
         <PlayerInfoSmall/>
