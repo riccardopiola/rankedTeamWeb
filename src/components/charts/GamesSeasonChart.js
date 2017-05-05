@@ -69,7 +69,7 @@ const GamesSeasonChart = (props) => {
       <Pie
         activeIndex={ACTIVE_INDEX_SETTING}
         activeShape={renderActiveShape}
-        fill={ACTIVE_INDEX_SETTING}
+        fill={'#999'}
         data={data}
         innerRadius={50}
         outerRadius={80}

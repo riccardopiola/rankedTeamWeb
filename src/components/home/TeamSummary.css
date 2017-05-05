@@ -9,7 +9,13 @@
 .team-summary-col-sx {
   width: 50%;
   display: flex;
+  flex-direction: column;;
+}
+.team-summary-line-container {
+  display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .team-summary-title {
   /*font-family: Times;*/
@@ -20,13 +26,15 @@
   border-bottom: 2px solid #c9aa71;
   /*color: #eae0d8;*/
   color: #896c3d;
-  margin: 15px;
+  margin: 5px 15px 15px 15px;
   padding-bottom: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .team-summary-line {
-  padding: 15px;
+  /*white-space: nowrap;*/
+  padding: 10px 15px 10px 15px;
   display: flex;
+  flex: 1 1 25%;
 }
 .team-summary-desc {
   width: 50%;
@@ -37,6 +45,7 @@
   width: 50%;
   color: #eae0d8;
   text-transform: uppercase;
+  text-align: right;
 }
 .team-summary-col-dx {
   width: 50%;
