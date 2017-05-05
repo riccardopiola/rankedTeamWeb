@@ -1,16 +1,17 @@
-@font-face {
-    font-family: 'beaufortforlol';
-    src: url('./beaufortforlol-regular.otf') format('opentype');
-}
 body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  font-family: 'beaufortforlol', 'Roboto', sans-serif;
+  font-family: baufortforlol, 'Wingdings', serif;
   color: #eae0d8;
+  min-height: 100vh;
+  background: #000000 url(https://lolstatic-a.akamaihd.net/lolkit/1.1.6/resources/images/bg-default.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
 }
 .App {
-  background-color: #121212;
+  
 }
 .header {
   background-color: #121212;
@@ -35,8 +36,7 @@ body {
   background-image: url(https://cdn.leagueoflegends.com/riotbar/prod/1.6.61/images/navigation/icon-game-lol.png?1493242078) no-repeat 5px 8px;
 }
 .body {
-  min-height: 100vh;
-  background-image: url(https://lolstatic-a.akamaihd.net/lolkit/1.1.6/resources/images/bg-default.jpg);
+  
 }
 .content {
   width: 1024px;
