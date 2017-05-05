@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import GameSeasonChart from '../charts/GamesSeasonChart';
 import './TeamSummary.css';
 
 const DescValueCombo = (props) => {
@@ -20,8 +21,7 @@ class TeamSummary extends Component {
           <DescValueCombo desc="barons:" value="10"/>
         </div>
         <div className="team-summary-col-dx">
-          CHART
-          {/*http://recharts.org/#/en-US/examples/CustomActiveShapePieChart*/}
+          <GameSeasonChart/>
         </div>
       </div>
     );
