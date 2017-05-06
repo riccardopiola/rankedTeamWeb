@@ -71,7 +71,7 @@ class GamesSeasonChart extends React.Component {
     });
   }
   render() {
-    const data = mockData;
+    const data = mockData; // TODO: DELETE THIS
     return (
       <PieChart
         width={501}

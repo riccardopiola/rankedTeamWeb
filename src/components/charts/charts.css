@@ -1,0 +1,44 @@
+.chart-tooltip-container {
+    background-color: #121212;
+    border: 1px solid #c9aa71;
+    margin: 3px;
+    padding: 5px;
+    color: white;
+    font-family: beaufortforlol;
+    width: 150px;
+}
+.chart-tooltip-label {
+    letter-spacing: 1.3px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+.chart-tooltip-line {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+.chart-tooltip-container > div{
+    margin: 5px;
+}
+.chart-header {
+    text-transform: uppercase;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chart-header > h4 {
+    color: #896c3d;
+    font-weight: 900;
+    font-size: 22px;
+    padding-bottom: 0px;
+}
+.chart-header-selector {
+    border: 1px solid #896c3d;
+    border-radius: 3px;
+    display: flex;
+    cursor: pointer;
+}
+.chart-header-selector > div {
+    padding: 7px;
+}

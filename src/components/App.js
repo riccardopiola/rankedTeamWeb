@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './charts/charts.css';
 
 class App extends Component {
   render() {
