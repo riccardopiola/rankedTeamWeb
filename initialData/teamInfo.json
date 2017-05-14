@@ -1,0 +1,36 @@
+{
+  "rankedTeamName": "INDZ",
+  "summonerNamesArray": [
+    "rickypiola97",
+    "Nonno Laser",
+    "Bbak",
+    "KebabbaroPazzo",
+    "döubleliftfanboy",
+    "Pornstar ßard",
+    "Monkey D Agu",
+    "Novecento",
+    "Häru"
+  ],
+  "data": {
+    "summonersInfo": true,
+    "verifiedMatchIds": true,
+    "matchesEssentials": true,
+    "allTheMatches": true,
+    "chartData": false,
+    "Season4": {
+      "matches": true,
+      "matchesEssentials": true,
+      "chartData": true
+    },
+    "Season5": {
+      "matches": true,
+      "matchesEssentials": true,
+      "chartData": true
+    },
+    "Season6": {
+      "matches": true,
+      "matchesEssentials": true,
+      "chartData": true
+    }
+  }
+}
